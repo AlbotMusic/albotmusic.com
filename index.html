@@ -223,21 +223,21 @@
    ============================================================ */
 const Q = encodeURIComponent('Albot Music');
 const PLATFORMS = {
-  spotify:  {name:'Spotify',          brand:'#1db954', direct:false, url:`https://open.spotify.com/search/${Q}`},
+  spotify:  {name:'Spotify',          brand:'#1db954', direct:true,  url:'https://open.spotify.com/artist/1upL05QcHwULqGaKuP3h4r'},
   apple:    {name:'Apple Music',      brand:'#fa243c', direct:true,  url:'https://music.apple.com/us/artist/albot-music/1525279517'},
   amazon:   {name:'Amazon Music',     brand:'#25d1da', direct:true,  url:'https://music.amazon.com/artists/B08F4D4W1V/albot-music'},
   ytmusic:  {name:'YouTube Music',    brand:'#ff0000', direct:true,  url:'https://music.youtube.com/@albotmusic8224'},
   tidal:    {name:'TIDAL',            brand:'#ffffff', direct:true,  url:'https://tidal.com/artist/20657064/u'},
   deezer:   {name:'Deezer',           brand:'#a238ff', direct:false, url:`https://www.deezer.com/search/${Q}/artist`},
-  pandora:  {name:'Pandora',          brand:'#3668ff', direct:false, url:`https://www.pandora.com/search/${Q}/all`},
-  iheart:   {name:'iHeartRadio',      brand:'#c6002b', direct:false, url:`https://www.iheart.com/search/?q=${Q}`},
+  pandora:  {name:'Pandora',          brand:'#3668ff', direct:true,  url:'https://www.pandora.com/artist/albot-music-tm/ARdblVtJP6z4hwZ'},
+  iheart:   {name:'iHeartRadio',      brand:'#c6002b', direct:true,  url:'https://www.iheart.com/artist/albot-music-34839969/'},
   qq:       {name:'QQ音乐 · QQ Music', brand:'#31c27c', direct:false, url:`https://y.qq.com/n/ryqq/search?w=${Q}`},
   netease:  {name:'网易云音乐 · NetEase', brand:'#e60026', direct:false, url:`https://music.163.com/#/search/m/?s=${Q}&type=100`},
-  kkbox:    {name:'KKBOX',            brand:'#09cef6', direct:false, url:`https://www.kkbox.com/tw/en/search?q=${Q}`},
-  flo:      {name:'FLO',              brand:'#3f3fff', direct:false, url:`https://www.music-flo.com/search/all?keyword=${Q}`},
-  jiosaavn: {name:'JioSaavn',         brand:'#2bc5b4', direct:false, url:`https://www.jiosaavn.com/search/${Q}`},
+  kkbox:    {name:'KKBOX',            brand:'#09cef6', direct:true,  url:'https://www.kkbox.com/tw/en/artist/8pmQgOODL2RaeDLac0'},
+  flo:      {name:'FLO',              brand:'#3f3fff', direct:true,  url:'https://www.music-flo.com/detail/artist/407143603/track'},
+  jiosaavn: {name:'JioSaavn',         brand:'#2bc5b4', direct:true,  url:'https://www.jiosaavn.com/artist/albot-music%E2%84%A2-songs/0VcW7L4g1wk_'},
   anghami:  {name:'Anghami',          brand:'#a82ef0', direct:false, url:`https://play.anghami.com/search/${Q}`},
-  boomplay: {name:'Boomplay',         brand:'#0b6cf2', direct:false, url:`https://www.boomplay.com/search/default/${Q}`},
+  boomplay: {name:'Boomplay',         brand:'#0b6cf2', direct:true,  url:'https://www.boomplay.com/artists/EQL1Ftbz1yNk_tG6xv7EocWl'},
 };
 
 const SOCIAL = {
